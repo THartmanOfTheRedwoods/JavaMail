@@ -24,9 +24,9 @@ public class Main {
             Config c = g.fromJson(fs.useDelimiter("\\A").next(), Config.class);
 
             // Recipient's email ID needs to be mentioned.
-            String to = "trevor-hartman@redwoods.edu";
+            String to = "SOME_RECIPIENT@gmail.com";
             // Sender's email ID needs to be mentioned
-            String from = "viable2005@gmail.com";
+            String from = "SOME_USER@gmail.com";
             // Subject and Body
             String subject = "Hello There";
             String body = "This is a Java Mail Test";
